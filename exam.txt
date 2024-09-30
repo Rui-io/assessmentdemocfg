@@ -1,4 +1,47 @@
-PART 1: ANSWERS
+PART 1: 
+Describe Elastic Compute Cloud (EC2) (1p)
+EC2 is a virtual machine service provided by AWS. Instead of buying, setting up, and
+maintaining physical servers, you can leverage EC2 instances to run your applications and
+workloads.
+2. What do we mean when we say “Buckets” in relation to AWS? (1p)
+A bucket is like a virtual container where you can store data. Inside a bucket you store objects
+(images, documents, backups, etc). They can be used for file hosting, backup and archiving,
+and content distribution. You can store any number of objects in a bucket and you can have
+up to 100 buckets in your AWS account.
+3. What is CloudFront? (1p)
+CloudFront is a content delivery network operated by AWS. CloudFront takes your web
+content and spreads it across its edge locations. When a user clicks a link or opens a page,
+CloudFront gets the content from the nearest edge location.
+4. What is the Principle of Least Privilege? (1p)
+PoLP ensures that every module only has access to what is absolutely necessary for its
+purpose. It is needed for security, fault tolerance and ease of deployment. An example is a
+user account, it doesn’t need access to admin features so it isn’t given them.
+5. What is RedShift? (1p)
+RedShift is a fully-managed cloud data warehouse. It uses SQL to analyse data for you. It’s
+fast, scalable, and easy to use.
+6. What is a Security Group in the AWS world? (1p)
+A security group acts as a virtual firewall for your AWS resources. They control incoming and
+outgoing traffic based on a set of rules. You can define rules within the security group to allow
+or deny specific types of traffic.
+7. What is a Subnet ? (1p)
+Subnets help you organise and partition your resources. Each subnet has its own IP address
+range. They can be public or private. For example, your EC2 instance hosting a website
+would be public so people can visit it, but your database server would be private. They can
+utilise different availability zones so that if there is an outage in one it doesn’t affect all your
+resources.
+8. What is VPC in the AWS ecosystem? (1p)
+Amazon Virtual Private Cloud helps you design and manage your own private network within
+the cloud. It is made up of subnets, route tables, and security groups. VPC can be used for
+hosting web apps, hybrid cloud, and multi-tier architectures.
+9. What is AWS Certificate Manager? (1p)
+These certificates ensure secure connections between users and your AWS resources. When
+hosting a website, ACM checks the certificate validity of someone making a HTTPS request.
+AWS certificate manager makes it easier to manage these certificates and can integrate them
+with various AWS services.
+10. Describe OpsWorks? (1p)
+OpsWorks is a configuration management service that helps you configure and operate
+applications in the cloud. It used Chef to define how servers are configured, and Puppet to
+ensure every server follows the same manifest for consistency. It has an auto healing mode
 PART 2: ANSWERS
 PART 3: S3 deployed web URL
 PART 4: ECS deployed web URL: http://ec2-3-88-182-103.compute-1.amazonaws.com:8888/
